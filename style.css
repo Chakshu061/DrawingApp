@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+}
+
+.nav:hover{
+    opacity: 1;
+}
+
+.clr{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 3px solid rgb(214, 214, 214);
+    transition: transform .5s;
+}
+
+.clr:hover{
+    transform: scale(1.2);
+}
+.clr:nth-child(1){
+    background-color: #9400D3;
+}
+.clr:nth-child(2){
+    background-color: #4B0082;
+}
+.clr:nth-child(3){
+    background-color: #0000ff;
+}
+.clr:nth-child(4){
+    background-color: #00ff00;
+}
+.clr:nth-child(5){
+    background-color: #ffff00;
+}
+.clr:nth-child(6){
+    background-color: #ff7f00;
+}
+.clr:nth-child(7){
+    background-color: #ff0000;
+}
+.clr:nth-child(8){
+    background-color: #000;
+}
+.clr:nth-child(9){
+    background-color: #fff;
+}
+
+#decrease {
+    border: none;
+    outline: none;
+    padding: .6em 1em;
+    border-radius: 3px;
+    background-color: #bb030c;
+    color: #fff;
+}
+
+#increase {
+    border: none;
+    outline: none;
+    padding: .6em 1em;
+    border-radius: 3px;
+    background-color: #99bb03;
+    color: #fff;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: .6em 1em;
+    border-radius: 3px;
+    background-color: #03bb56;
+    color: #fff;
+}
+.save{
+    background-color: #0f65d4;
+}
